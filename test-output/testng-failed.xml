@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppiumSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MobileAppTests(failed)">
+    <classes>
+      <class name="calculatorTest.CalculatorTestClass">
+        <methods>
+          <include name="setup"/>
+          <include name="testLogarithm"/>
+          <include name="tearDown"/>
+          <include name="testSine"/>
+          <include name="initPage"/>
+        </methods>
+      </class> <!-- calculatorTest.CalculatorTestClass -->
+    </classes>
+  </test> <!-- MobileAppTests(failed) -->
+</suite> <!-- Failed suite [AppiumSuite] -->

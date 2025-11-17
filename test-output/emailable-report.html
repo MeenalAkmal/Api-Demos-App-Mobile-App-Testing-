@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">AppiumSuite</th></tr>
+<tr><td><a href="#t0">MobileAppTests</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">70,412</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AppiumSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">MobileAppTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">calculatorTest.CalculatorTestClass</td><td><a href="#m0">testLogarithm</a></td><td rowspan="1">1763032845243</td><td rowspan="1">11005</td></tr><tr class="failedeven"><td><a href="#m1">testSine</a></td><td rowspan="1">1763032834419</td><td rowspan="1">10820</td></tr><tr><th colspan="4">MobileAppTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">calculatorTest.CalculatorTestClass</td><td><a href="#m2">testAddition</a></td><td rowspan="1">1763032797096</td><td rowspan="1">5687</td></tr><tr class="passedeven"><td><a href="#m3">testDecimalPoint</a></td><td rowspan="1">1763032816123</td><td rowspan="1">5805</td></tr><tr class="passedeven"><td><a href="#m4">testDivision</a></td><td rowspan="1">1763032811540</td><td rowspan="1">4580</td></tr><tr class="passedeven"><td><a href="#m5">testMultiplication</a></td><td rowspan="1">1763032807132</td><td rowspan="1">4405</td></tr><tr class="passedeven"><td><a href="#m6">testPercentage</a></td><td rowspan="1">1763032821931</td><td rowspan="1">4348</td></tr><tr class="passedeven"><td><a href="#m7">testPower</a></td><td rowspan="1">1763032826282</td><td rowspan="1">4567</td></tr><tr class="passedeven"><td><a href="#m8">testSquareRoot</a></td><td rowspan="1">1763032830851</td><td rowspan="1">3566</td></tr><tr class="passedeven"><td><a href="#m9">testSubtraction</a></td><td rowspan="1">1763032802790</td><td rowspan="1">4336</td></tr></tbody>
+</table>
+<h2>MobileAppTests</h2><h3 id="m0">calculatorTest.CalculatorTestClass#testLogarithm</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=log}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at calculatorPage.CalculatorPageClass.click(CalculatorPageClass.java:48)
+	at calculatorPage.CalculatorPageClass.pressLog(CalculatorPageClass.java:75)
+	at calculatorTest.CalculatorTestClass.testLogarithm(CalculatorTestClass.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">calculatorTest.CalculatorTestClass#testSine</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=sine}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at calculatorPage.CalculatorPageClass.click(CalculatorPageClass.java:48)
+	at calculatorPage.CalculatorPageClass.pressSine(CalculatorPageClass.java:74)
+	at calculatorTest.CalculatorTestClass.testSine(CalculatorTestClass.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">calculatorTest.CalculatorTestClass#testAddition</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">calculatorTest.CalculatorTestClass#testDecimalPoint</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">calculatorTest.CalculatorTestClass#testDivision</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">calculatorTest.CalculatorTestClass#testMultiplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">calculatorTest.CalculatorTestClass#testPercentage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">calculatorTest.CalculatorTestClass#testPower</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">calculatorTest.CalculatorTestClass#testSquareRoot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">calculatorTest.CalculatorTestClass#testSubtraction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

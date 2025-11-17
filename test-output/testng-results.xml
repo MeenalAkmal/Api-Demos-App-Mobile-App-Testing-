@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-13T16:19:46 PKT" name="AppiumSuite" finished-at="2025-11-13T16:20:56 PKT" duration-ms="70412">
+    <groups>
+      <group name="Scientific">
+        <method signature="CalculatorTestClass.testPower()[pri:7, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testPower" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testSquareRoot()[pri:8, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testSquareRoot" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testSine()[pri:9, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testSine" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testLogarithm()[pri:10, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testLogarithm" class="calculatorTest.CalculatorTestClass"/>
+      </group> <!-- Scientific -->
+      <group name="Arithmetic">
+        <method signature="CalculatorTestClass.testSubtraction()[pri:2, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testSubtraction" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testMultiplication()[pri:3, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testMultiplication" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testDivision()[pri:4, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testDivision" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testDecimalPoint()[pri:5, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testDecimalPoint" class="calculatorTest.CalculatorTestClass"/>
+        <method signature="CalculatorTestClass.testPercentage()[pri:6, instance:calculatorTest.CalculatorTestClass@3e694b3f]" name="testPercentage" class="calculatorTest.CalculatorTestClass"/>
+      </group> <!-- Arithmetic -->
+    </groups>
+    <test started-at="2025-11-13T16:19:46 PKT" name="MobileAppTests" finished-at="2025-11-13T16:20:56 PKT" duration-ms="70412">
+      <class name="calculatorTest.CalculatorTestClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:19:46 PKT" name="setup" finished-at="2025-11-13T16:19:57 PKT" duration-ms="10485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:19:57 PKT" name="initPage" finished-at="2025-11-13T16:19:57 PKT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="testAddition()[pri:1, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:19:57 PKT" name="testAddition" finished-at="2025-11-13T16:20:02 PKT" duration-ms="5687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testSubtraction()[pri:2, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:02 PKT" name="testSubtraction" finished-at="2025-11-13T16:20:07 PKT" duration-ms="4336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication()[pri:3, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:07 PKT" name="testMultiplication" finished-at="2025-11-13T16:20:11 PKT" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testDivision()[pri:4, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:11 PKT" name="testDivision" finished-at="2025-11-13T16:20:16 PKT" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDecimalPoint()[pri:5, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:16 PKT" name="testDecimalPoint" finished-at="2025-11-13T16:20:21 PKT" duration-ms="5805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimalPoint -->
+        <test-method signature="testPercentage()[pri:6, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:21 PKT" name="testPercentage" finished-at="2025-11-13T16:20:26 PKT" duration-ms="4348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage -->
+        <test-method signature="testPower()[pri:7, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:26 PKT" name="testPower" finished-at="2025-11-13T16:20:30 PKT" duration-ms="4567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPower -->
+        <test-method signature="testSquareRoot()[pri:8, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:30 PKT" name="testSquareRoot" finished-at="2025-11-13T16:20:34 PKT" duration-ms="3566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRoot -->
+        <test-method signature="testSine()[pri:9, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:34 PKT" name="testSine" finished-at="2025-11-13T16:20:45 PKT" duration-ms="10820" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=sine}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=sine}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at calculatorPage.CalculatorPageClass.click(CalculatorPageClass.java:48)
+at calculatorPage.CalculatorPageClass.pressSine(CalculatorPageClass.java:74)
+at calculatorTest.CalculatorTestClass.testSine(CalculatorTestClass.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSine -->
+        <test-method signature="testLogarithm()[pri:10, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:45 PKT" name="testLogarithm" finished-at="2025-11-13T16:20:56 PKT" duration-ms="11005" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=log}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b, findElement {using=accessibility id, value=log}]
+Capabilities {appium:app: C:\Users\meena\Apps\calcula..., appium:appActivity: com.android.calculator2.Cal..., appium:appPackage: com.google.android.calculator, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\meena\Apps\calcula..., automationName: UiAutomator2, deviceName: Samsung A32, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A325F, appium:deviceName: RF8T20XDF3D, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: RF8T20XDF3D, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.625, appium:platformVersion: 13, appium:statBarHeight: 78, appium:takesScreenshot: true, appium:viewportRect: {height: 2322, left: 0, top: 78, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 6d872aa1-a5e2-4e8e-8800-cf02e7d38d4b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at calculatorPage.CalculatorPageClass.click(CalculatorPageClass.java:48)
+at calculatorPage.CalculatorPageClass.pressLog(CalculatorPageClass.java:75)
+at calculatorTest.CalculatorTestClass.testLogarithm(CalculatorTestClass.java:114)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogarithm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:calculatorTest.CalculatorTestClass@3e694b3f]" started-at="2025-11-13T16:20:56 PKT" name="tearDown" finished-at="2025-11-13T16:20:56 PKT" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- calculatorTest.CalculatorTestClass -->
+    </test> <!-- MobileAppTests -->
+  </suite> <!-- AppiumSuite -->
+</testng-results>
